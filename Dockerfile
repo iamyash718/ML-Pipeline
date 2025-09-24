@@ -16,5 +16,5 @@ COPY . .
 # Expose port 5000 (for Flask API)
 EXPOSE 5000
 
-# Default command (can be changed later)
-CMD ["python", "RajFullPracticalCode.ipynb"]
+# Run the app.py script
+CMD ["python", "app.py"]
